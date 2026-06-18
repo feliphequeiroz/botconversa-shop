@@ -43,4 +43,19 @@ O conteúdo foi estruturado com base no arquivo `contexto.txt`, aplicando um **D
 
 ---
 
-## 📁 Estrutura de Arquivos
+---
+
+## 👁️ Preview da Landing Page
+
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/feliphequeiroz/botconversa-shop/main/preview_verify_landing_page_1781807713216.webp" 
+    alt="Preview da nova Landing Page BotConversa em Light Mode" 
+    width="100%"
+    style="border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 168, 132, 0.15); border: 1px solid #E5E7EB;"
+  />
+</p>
+
+<p align="center">
+  <em>Nova Landing Page BotConversa em Light Mode — Design clean, switch mensal/anual interativo e foco em conversão.</em>
+</p>
