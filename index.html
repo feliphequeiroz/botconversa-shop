@@ -861,120 +861,120 @@
 
 <body>
 
-  <nav>
+  <nav role="navigation" aria-label="Menu principal">
     <div class="container nav-inner">
       <div class="logo">
         <img src="botconversa_logo.svg" alt="BotConversa Logo">
       </div>
-      <div class="mono" style="opacity: 0.6; font-size: 11px;">Soluções inteligentes com IA</div>
+      <div class="mono" style="opacity: 0.6; font-size: 11px;" aria-label="Soluções inteligentes com IA">Soluções inteligentes com IA</div>
     </div>
   </nav>
 
   <div class="glow-top"></div>
 
-  <div id="toaster">
+  <div id="toaster" role="status" aria-live="polite">
     <div class="status-dot"></div>
     <span class="mono" style="font-size: 11px;">Assistente de IA Ativo</span>
   </div>
 
-  <main>
+  <main id="main-content" role="main">
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="container">
         <span class="hero-eyebrow mono reveal">Inteligência Artificial + Automação</span>
-        <h1 class="gradient-text reveal">Automatize seus chats do WhatsApp com Assistentes de IA</h1>
+        <h1 class="gradient-text reveal" id="hero-title">Automatize seus chats do WhatsApp com Assistentes de IA</h1>
         <p class="reveal">Crie em minutos. Sem programar. Escale suas conversas sem aumentar sua equipe.</p>
         <a href="#planos" class="hero-cta reveal">Ver Planos & Preços</a>
       </div>
     </section>
 
     <!-- SOCIAL PROOF -->
-    <section class="social-proof">
+    <section class="social-proof" aria-label="Prova social">
       <div class="container">
-        <div class="social-proof-text reveal">
+        <div class="social-proof-text reveal" role="status">
           Mais de 45.000 empresas estão multiplicando seus resultados com a BotConversa
         </div>
       </div>
     </section>
 
     <!-- SHOWCASE IMAGE -->
-    <section class="container image-showcase reveal">
-      <img src="sobre botconversa 4S6XRkW17Mv3vwVxkPsRTDo2fic.avif" alt="Sobre BotConversa" class="showcase-img">
+    <section class="container image-showcase reveal" aria-label="Demonstração da plataforma">
+      <img src="sobre-botconversa-4S6XRkW17Mv3vwVxkPsRTDo2fic.avif" alt="Sobre BotConversa" class="showcase-img">
     </section>
 
     <!-- COMPARISON -->
-    <section class="container comparison-section">
+    <section class="container comparison-section" aria-labelledby="comparison-title">
       <div class="section-label reveal">
         <span class="tag mono">Evolução do Atendimento</span>
-        <h2>Solução que faz a diferença</h2>
+        <h2 id="comparison-title">Solução que faz a diferença</h2>
         <p>Qualifique seus leads, atenda e venda todos os dias de forma inteligente e automática.</p>
       </div>
 
-      <div class="comparison-grid">
+      <div class="comparison-grid" role="list">
         <!-- Sem BotConversa -->
-        <div class="comparison-card negative reveal">
+        <div class="comparison-card negative reveal" role="listitem">
           <div class="comparison-header negative">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="12" cy="12" r="10" />
               <line x1="15" y1="9" x2="9" y2="15" />
               <line x1="9" y1="9" x2="15" y2="15" />
             </svg>
             Sem BotConversa
           </div>
-          <ul class="comparison-list">
+          <ul class="comparison-list" role="list">
             <li class="comparison-item">
-              <span class="icon" style="color: var(--danger)">✕</span>
+              <span class="icon" style="color: var(--danger)" aria-hidden="true">✕</span>
               WhatsApp bagunçado
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--danger)">✕</span>
+              <span class="icon" style="color: var(--danger)" aria-hidden="true">✕</span>
               Lentidão no atendimento
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--danger)">✕</span>
+              <span class="icon" style="color: var(--danger)" aria-hidden="true">✕</span>
               Trabalho manual
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--danger)">✕</span>
+              <span class="icon" style="color: var(--danger)" aria-hidden="true">✕</span>
               Sem acompanhamento
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--danger)">✕</span>
+              <span class="icon" style="color: var(--danger)" aria-hidden="true">✕</span>
               Equipe sobrecarregada
             </li>
           </ul>
         </div>
 
         <!-- Com BotConversa -->
-        <div class="comparison-card positive reveal">
+        <div class="comparison-card positive reveal" role="listitem">
           <div class="comparison-header positive">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="12" cy="12" r="10" />
               <polyline points="22 4 12 14.01 9 11.01" />
             </svg>
             Com BotConversa
           </div>
-          <ul class="comparison-list">
+          <ul class="comparison-list" role="list">
             <li class="comparison-item">
-              <span class="icon" style="color: var(--success)">✓</span>
+              <span class="icon" style="color: var(--success)" aria-hidden="true">✓</span>
               Serviço, vendas e suporte com IA
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--success)">✓</span>
+              <span class="icon" style="color: var(--success)" aria-hidden="true">✓</span>
               Caixa de entrada centralizada e organizada
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--success)">✓</span>
+              <span class="icon" style="color: var(--success)" aria-hidden="true">✓</span>
               Respostas automáticas 24 horas por dia, 7 dias por semana
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--success)">✓</span>
+              <span class="icon" style="color: var(--success)" aria-hidden="true">✓</span>
               Equipe focada em conversões
             </li>
             <li class="comparison-item">
-              <span class="icon" style="color: var(--success)">✓</span>
+              <span class="icon" style="color: var(--success)" aria-hidden="true">✓</span>
               Gerenciamento completo em uma plataforma
             </li>
           </ul>
@@ -983,80 +983,80 @@
     </section>
 
     <!-- PRICING -->
-    <section id="planos" class="container" style="padding-bottom: 80px;">
+    <section id="planos" class="container" style="padding-bottom: 80px;" aria-labelledby="pricing-title">
       <div class="section-label reveal">
         <span class="tag mono">Tabelas transparentes</span>
-        <h2>Planos & Preços</h2>
+        <h2 id="pricing-title">Planos & Preços</h2>
         <p>Escolha o plano que corresponde ao seu fluxo de trabalho – sem taxas escondidas, sem surpresas.</p>
       </div>
 
       <!-- MENSAL / ANUAL SWITCH -->
-      <div class="switch-wrapper reveal">
-        <span id="label-mensal" class="switch-label active">Mensal</span>
+      <div class="switch-wrapper reveal" role="group" aria-label="Seleção de período de pagamento">
+        <span id="label-mensal" class="switch-label active" role="radio" aria-checked="true" tabindex="0">Mensal</span>
         <label class="switch">
-          <input type="checkbox" id="pricing-toggle">
+          <input type="checkbox" id="pricing-toggle" aria-label="Alternar entre mensal e anual">
           <span class="slider"></span>
         </label>
-        <span id="label-anual" class="switch-label">Anual <span class="discount-tag">Desconto Especial</span></span>
+        <span id="label-anual" class="switch-label" role="radio" aria-checked="false" tabindex="0">Anual <span class="discount-tag">Desconto Especial</span></span>
       </div>
 
       <div class="pricing-container">
         <!-- API NÃO OFICIAL -->
         <div class="reveal">
           <h3 class="pricing-section-title">API Não Oficial</h3>
-          <div class="pricing-grid">
+          <div class="pricing-grid" role="list">
             <!-- Starter -->
-            <div class="price-card">
+            <div class="price-card" role="listitem">
               <h3>Starter</h3>
               <p class="description">Para quem está começando a estruturar seus atendimentos.</p>
 
               <!-- Dynamic Price -->
-              <div class="price-amount" id="price-starter">
+              <div class="price-amount" id="price-starter" aria-live="polite">
                 <span class="price-num">R$ 199</span><span class="period">/mês</span>
               </div>
 
               <!-- Dynamic Button -->
               <a href="https://go.botconversa.com.br/aff/0QKMQNAR/Q3KO6CWM" id="btn-starter" target="_blank"
-                class="plan-btn outline">Começar Agora</a>
+                class="plan-btn outline" aria-label="Assinar plano Starter">Começar Agora</a>
 
               <div class="features-header">O que está incluído:</div>
-              <ul class="feature-list">
-                <li class="feature-item"><span class="check">✓</span> 1 WhatsApp conectado</li>
-                <li class="feature-item"><span class="check">✓</span> Até 5 membros da equipe</li>
-                <li class="feature-item"><span class="check">✓</span> Visão geral dos principais indicadores</li>
-                <li class="feature-item"><span class="check">✓</span> Organização de contatos (tags/campos)</li>
-                <li class="feature-item"><span class="check">✓</span> Construtor de fluxos</li>
-                <li class="feature-item"><span class="check">✓</span> Palavras-chave</li>
-                <li class="feature-item"><span class="check">✓</span> Sequências e Campanhas</li>
+              <ul class="feature-list" role="list">
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> 1 WhatsApp conectado</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Até 5 membros da equipe</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Visão geral dos principais indicadores</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Organização de contatos (tags/campos)</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Construtor de fluxos</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Palavras-chave</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Sequências e Campanhas</li>
               </ul>
             </div>
 
             <!-- Pro -->
-            <div class="price-card featured">
+            <div class="price-card featured" role="listitem">
               <span class="price-badge">Mais Popular</span>
               <h3>Pro</h3>
               <p class="description">Mais recursos e automações avançadas para sua operação.</p>
 
               <!-- Dynamic Price -->
-              <div class="price-amount" id="price-pro">
+              <div class="price-amount" id="price-pro" aria-live="polite">
                 <span class="price-num">R$ 297</span><span class="period">/mês</span>
               </div>
 
               <!-- Dynamic Button -->
               <a href="https://go.botconversa.com.br/aff/BUEYQVFZ/KYJHTGKB" id="btn-pro" target="_blank"
-                class="plan-btn primary">Começar Agora</a>
+                class="plan-btn primary" aria-label="Assinar plano Pro">Começar Agora</a>
 
               <div class="features-header">Tudo no Starter, além de:</div>
-              <ul class="feature-list">
-                <li class="feature-item"><span class="check">✓</span> Membros ilimitados na equipe</li>
-                <li class="feature-item"><span class="check">✓</span> Assistente de IA</li>
-                <li class="feature-item"><span class="check">✓</span> Transmissões</li>
-                <li class="feature-item"><span class="check">✓</span> Integrações (Zapier, Webhooks e APIs)</li>
-                <li class="feature-item"><span class="check">✓</span> Assistente GPT & GPT Especialista</li>
-                <li class="feature-item"><span class="check">✓</span> CRM Kanban (30 dias para testar)</li>
-                <li class="feature-item"><span class="check">✓</span> Integrador (30 dias para testar)</li>
-                <li class="feature-item"><span class="check">✓</span> API Oficial META (30 dias para testar)</li>
-                <li class="feature-item"><span class="check">✓</span> Coexistência e menor risco de bloqueio</li>
+              <ul class="feature-list" role="list">
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Membros ilimitados na equipe</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Assistente de IA</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Transmissões</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Integrações (Zapier, Webhooks e APIs)</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Assistente GPT & GPT Especialista</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> CRM Kanban (30 dias para testar)</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Integrador (30 dias para testar)</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> API Oficial META (30 dias para testar)</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Coexistência e menor risco de bloqueio</li>
               </ul>
             </div>
           </div>
@@ -1069,7 +1069,7 @@
             <div class="meta-badge">
               <div class="meta-badge-inner">
                 <svg width="24" height="16" viewBox="0 0 16.06 10.667" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-label="Meta logo">
+                  aria-label="Meta logo" role="img">
                   <path
                     d="M 1.735 7.034 C 1.735 7.648 1.869 8.118 2.045 8.403 C 2.276 8.776 2.62 8.934 2.97 8.934 C 3.423 8.934 3.837 8.822 4.634 7.719 C 5.273 6.835 6.026 5.594 6.532 4.816 L 7.39 3.498 C 7.986 2.583 8.676 1.565 9.467 0.876 C 10.112 0.313 10.809 0 11.509 0 C 12.686 0 13.807 0.682 14.665 1.961 C 15.603 3.361 16.059 5.126 16.059 6.946 C 16.059 8.028 15.846 8.824 15.483 9.452 C 15.132 10.06 14.449 10.667 13.299 10.667 L 13.299 8.934 C 14.283 8.934 14.529 8.03 14.529 6.994 C 14.529 5.519 14.185 3.881 13.427 2.711 C 12.889 1.881 12.192 1.374 11.426 1.374 C 10.596 1.374 9.929 2 9.179 3.115 C 8.78 3.708 8.371 4.43 7.911 5.245 L 7.405 6.141 C 6.389 7.943 6.131 8.354 5.623 9.031 C 4.732 10.217 3.972 10.667 2.97 10.667 C 1.783 10.667 1.031 10.152 0.566 9.377 C 0.187 8.746 0 7.917 0 6.972 Z"
                     fill="rgb(0,129,251)" />
@@ -1098,30 +1098,30 @@
           <h3 class="pricing-section-title">API Oficial da Meta</h3>
 
           <!-- Two static cards: Mensal vs Anual -->
-          <div class="ia-duo-grid">
+          <div class="ia-duo-grid" role="list">
 
             <!-- Mensal -->
-            <div class="price-card">
+            <div class="price-card" role="listitem">
               <h3>IA Mensal</h3>
               <p class="description">WhatsApp Oficial da Meta integrado a uma IA conversacional. Flexibilidade total sem
                 compromisso.</p>
               <div class="price-amount">
                 <span class="price-num">R$ 299</span><span class="period">/mês</span>
               </div>
-              <a href="https://go.botconversa.com.br/aff/FATSD5MJ/FIASVBVE" target="_blank"
-                class="plan-btn outline">Começar Agora</a>
+              <a href="https://go.botconversa.com.br/aff/FATSD5MJ/FIASVBVE" target="_blank" rel="noopener noreferrer"
+                class="plan-btn outline" aria-label="Assinar plano IA Mensal">Começar Agora</a>
               <div class="features-header">O que está incluído:</div>
-              <ul class="feature-list">
-                <li class="feature-item"><span class="check">✓</span> WhatsApp Oficial da Meta</li>
-                <li class="feature-item"><span class="check">✓</span> Inteligência Artificial integrada</li>
-                <li class="feature-item"><span class="check">✓</span> Estabilidade garantida pela Meta</li>
-                <li class="feature-item"><span class="check">✓</span> Risco zero de bloqueio de número</li>
-                <li class="feature-item"><span class="check">✓</span> Suporte premium</li>
+              <ul class="feature-list" role="list">
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> WhatsApp Oficial da Meta</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Inteligência Artificial integrada</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Estabilidade garantida pela Meta</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Risco zero de bloqueio de número</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Suporte premium</li>
               </ul>
             </div>
 
             <!-- Anual com super desconto -->
-            <div class="price-card featured">
+            <div class="price-card featured" role="listitem">
               <span class="price-badge" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">Super
                 Desconto</span>
               <h3>IA Anual</h3>
@@ -1133,15 +1133,15 @@
                 <span class="price-num">R$ 149</span><span class="period">/mês</span>
               </div>
               <div style="font-size:12px; color: var(--ink-mute); margin-bottom: 20px;">ou R$ 1.788,00 à vista</div>
-              <a href="https://go.botconversa.com.br/aff/KHQDWM0Z/49HU1879" target="_blank"
-                class="plan-btn primary">Contratar Anual</a>
+              <a href="https://go.botconversa.com.br/aff/KHQDWM0Z/49HU1879" target="_blank" rel="noopener noreferrer"
+                class="plan-btn primary" aria-label="Assinar plano IA Anual">Contratar Anual</a>
               <div class="features-header">O que está incluído:</div>
-              <ul class="feature-list">
-                <li class="feature-item"><span class="check">✓</span> WhatsApp Oficial da Meta</li>
-                <li class="feature-item"><span class="check">✓</span> Inteligência Artificial integrada</li>
-                <li class="feature-item"><span class="check">✓</span> Estabilidade garantida pela Meta</li>
-                <li class="feature-item"><span class="check">✓</span> Risco zero de bloqueio de número</li>
-                <li class="feature-item"><span class="check">✓</span> Suporte premium</li>
+              <ul class="feature-list" role="list">
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> WhatsApp Oficial da Meta</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Inteligência Artificial integrada</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Estabilidade garantida pela Meta</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Risco zero de bloqueio de número</li>
+                <li class="feature-item"><span class="check" aria-hidden="true">✓</span> Suporte premium</li>
               </ul>
             </div>
           </div>
@@ -1178,16 +1178,16 @@
     </section>
 
     <!-- FAQ SECTION -->
-    <section class="container faq-section reveal">
+    <section class="container faq-section reveal" aria-labelledby="faq-title">
       <div class="faq-container">
         <div class="section-label">
           <span class="tag mono">Dúvidas Frequentes</span>
-          <h2>Restou alguma dúvida?</h2>
+          <h2 id="faq-title">Restou alguma dúvida?</h2>
           <p>Tire suas principais dúvidas e comece a usar todo o poder da ferramenta para vender mais através do
             WhatsApp.</p>
         </div>
 
-        <div class="faq-accordion">
+        <div class="faq-accordion" role="region" aria-label="Perguntas frequentes">
           <details class="faq-item">
             <summary>Qual a diferença entre os planos Starter e PRO?</summary>
             <div class="faq-content">
@@ -1206,7 +1206,7 @@
             <summary>Existe algum suporte em caso de dúvidas?</summary>
             <div class="faq-content">
               <p>Sim, nossa equipe de suporte estará disponível por e-mail e chat na nossa central de ajuda (<a
-                  href="https://ajuda.botconversa.com.br/" target="_blank"
+                  href="https://ajuda.botconversa.com.br/" target="_blank" rel="noopener noreferrer"
                   style="color: var(--accent); font-weight: 600; text-decoration: none;">ajuda.botconversa.com.br</a>)
                 para ajudá-lo com quaisquer dúvidas técnicas ou sobre o conteúdo.</p>
             </div>
@@ -1269,7 +1269,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="container">
       <div class="footer-logo">
         <img src="botconversa_logo.svg" alt="BotConversa Logo">
@@ -1317,9 +1317,6 @@
     // Button elements
     const btnStarter = document.getElementById('btn-starter');
     const btnPro = document.getElementById('btn-pro');
-
-    // Extra plans container
-    const extraPlans = document.getElementById('anual-only-section');
 
     const pricingData = {
       mensal: {
